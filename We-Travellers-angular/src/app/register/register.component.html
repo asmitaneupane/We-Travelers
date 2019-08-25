@@ -1,0 +1,19 @@
+<div class="signupbox">
+  <img src="../assets/img/avatar.png" class="avatar">
+      <h1>Register Here</h1>
+      <form class="user" [formGroup]="userForm" (ngSubmit)="onSubmit()">
+          <p>First Name</p>
+          <input type="text" name="" id="exampleFirstName" formControlName="firstName" placeholder="First Name">
+          <p>Last Name</p>
+          <input type="text" name="" id="exampleFirstName" placeholder="Last Name" formControlName="lastName">
+          <p>E-mail</p>
+          <input type="email" name="email" id="exampleFirstName" placeholder="Enter valid email address" formControlName="email">
+          <p>Choose a Password</p>
+          <input type="password" name="" id="exampleFirstName" formControlName="password"  placeholder="Enter Password">
+          <p>Re-enter your Password</p>
+          <input type="password" name="" placeholder="Enter Password" id="exampleFirstName" formControlName="cpassword">
+          <input  type="submit" name="" value="Signup now">
+          <a>Already have account?</a><br>
+          <a href="http://localhost:4200/login">Login now</a>
+      </form>
+  </div>

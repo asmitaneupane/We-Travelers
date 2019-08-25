@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url(/home/sujal/We-Travelers/We-Travellers-angular/src/assets/img/background.jpg);
+    background-size: 100%;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+
+/*--------------------------CSS for Signup-------------------------------*/
+.signupbox{
+    width: 400px;
+    height: 550px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 25px;
+}
+
+.avatar{
+    width: 110px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.signupbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.signupbox input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.signupbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+.signupbox input[type="email"], input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+.signupbox input [type="tel"], input[type="tel"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+.signupbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    font-weight: bold;
+    background: #fb2525;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 20px;
+}
+.signupbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.signupbox a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.signupbox a:hover
+{
+    color: #ffc107;
+}
+
+
+/*--------------------------CSS for Login-------------------------------*/
+.loginbox{
+    width: 350px;
+    height: 400px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 35px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+.loginbox input[type="email"], input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+.loginbox input[type="submit"]
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: none;
+    outline: none;
+    height: 40px;
+    font-weight: bold;
+    background: #fb2525;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.loginbox a{
+    margin-top: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover
+{
+    color: #ffc107;
+}

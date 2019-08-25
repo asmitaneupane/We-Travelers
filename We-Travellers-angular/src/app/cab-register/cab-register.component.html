@@ -1,0 +1,20 @@
+<div class="signupbox">
+  <img src="../assets/img/cab.png" class="avatar">
+      <h1>Register Here</h1>
+      <form class="user" [formGroup]="cabForm" (ngSubmit)="onSubmit()">
+          <p>Cab Number</p>
+          <input type="text" name="" placeholder="Cab Number"  id="exampleFirstName" formControlName="cabNumber">
+          <p>Cab Driver Name</p>
+          <input type="text" name="" placeholder="Cab Driver Name"  id="exampleFirstName" formControlName="cabDriverName">
+          <p>Driver's Phone</p>
+          <input type="tel" name="" placeholder="Driver's Phone Number"  id="exampleFirstName" formControlName="driverPhone">
+          <p>Driver Licence Number</p>
+          <input type="text" name="" placeholder="Enter Driver Licence Number"  id="exampleFirstName" formControlName="driverLicenceNumber">
+          <p>Cab Owner Name</p>
+          <input type="text" name="" placeholder="Cab Owner Name"  id="exampleFirstName" formControlName="cabOwnerName">
+          <input type="submit" name="" value="Signup now">
+          <a href="#">Wanna Book Cab?</a><br>
+          <a href="#">Book Cab now</a>
+      </form>
+      
+  </div>
