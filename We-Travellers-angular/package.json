@@ -24,7 +24,7 @@
     "chart.js": "^2.7.3",
     "core-js": "^2.5.4",
     "datatables.net-bs4": "^1.10.19",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "jquery-slim": "^3.0.0",
     "jquery.easing": "^1.4.1",
     "ngx-pagination": "^3.2.1",
